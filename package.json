@@ -1,14 +1,16 @@
 {
-    "name": "@milhous/web3-react-trust-wallet",
-    "version": "1.0.0",
+    "name": "@milhouswebstorm/web3-react-trust-wallet",
+    "version": "1.0.3",
     "description": "Trust Wallet connector for web3-react",
-    "type": "module",
     "keywords": [
         "web3-react",
         "trust-wallet",
         "TrustWallet"
     ],
-    "repository": "github:milhous/web3-react-trust-wallet.git",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/milhous/web3-react-trust-wallet.git"
+    },
     "author": "Milhous",
     "license": "MIT",
     "bugs": {

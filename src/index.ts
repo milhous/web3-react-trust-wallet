@@ -31,7 +31,7 @@ import type {
   
   export class TrustWallet extends Connector {
     /** {@inheritdoc Connector.provider} */
-    public provider: TrustWalletProvider | any = null;
+    public provider?: TrustWalletProvider;
     private _accounts: string[] = [];
   
     constructor({actions, onError}: TrustWalletConstructorArgs) {
