@@ -1,0 +1,41 @@
+{
+    "name": "@milhous/web3-react-trust-wallet",
+    "version": "1.0.0",
+    "description": "Trust Wallet connector for web3-react",
+    "type": "module",
+    "keywords": [
+        "web3-react",
+        "trust-wallet",
+        "TrustWallet"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/milhous/web3-react-trust-wallet.git"
+    },
+    "author": "Milhous",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/milhous/web3-react-trust-wallet/issues"
+    },
+    "homepage": "https://github.com/milhous/web3-react-trust-wallet#readme",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "dist/*"
+    ],
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "exports": "./dist/index.js",
+    "scripts": {
+        "prebuild": "rm -rf dist",
+        "build": "tsc",
+        "start": "tsc --watch"
+    },
+    "dependencies": {
+        "@web3-react/types": "^8.1.2-beta.0"
+    },
+    "devDependencies": {
+        "@tsconfig/recommended": "^1.0.1"
+    }
+}
