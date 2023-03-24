@@ -8,10 +8,7 @@
         "trust-wallet",
         "TrustWallet"
     ],
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/milhous/web3-react-trust-wallet.git"
-    },
+    "repository": "github:milhous/web3-react-trust-wallet.git",
     "author": "Milhous",
     "license": "MIT",
     "bugs": {
