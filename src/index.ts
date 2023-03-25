@@ -35,8 +35,6 @@ import type {
     private _accounts: string[] = [];
   
     constructor({actions, onError}: TrustWalletConstructorArgs) {
-      console.log(actions);
-  
       super(actions, onError);
     }
   
@@ -142,13 +140,9 @@ import type {
       if (provider) {
         return provider
           .on('connect', ({chainId}: ProviderConnectInfo): void => {
-            console.log('connect', chainId);
-  
             this.actions.update({chainId: Number(chainId)});
           })
           .on('disconnect', (error: ProviderRpcError): void => {
-            console.log('disconnect');
-  
             // eslint-disable-next-line @typescript-eslint/no-floating-promises
             this.provider?.request({method: 'PUBLIC_disconnectSite'});
             this.actions.resetState();
