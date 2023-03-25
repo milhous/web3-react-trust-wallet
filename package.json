@@ -1,6 +1,6 @@
 {
     "name": "@milhouswebstorm/web3-react-trust-wallet",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Trust Wallet connector for web3-react",
     "keywords": [
         "web3-react",
