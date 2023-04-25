@@ -1,6 +1,6 @@
 {
     "name": "@milhouswebstorm/web3-react-trust-wallet",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "description": "Trust Wallet connector for web3-react",
     "keywords": [
         "web3-react",
@@ -29,12 +29,14 @@
     "scripts": {
         "prebuild": "rm -rf dist",
         "build": "tsc",
-        "start": "tsc --watch"
+        "start": "tsc --watch",
+        "update": "ncu -u --deep"
     },
     "dependencies": {
-        "@web3-react/types": "^8.1.2-beta.0"
+        "@web3-react/types": "^8.2.0"
     },
     "devDependencies": {
-        "@tsconfig/recommended": "^1.0.1"
+        "@tsconfig/recommended": "^1.0.2",
+        "npm-check-updates": "^16.10.9"
     }
 }

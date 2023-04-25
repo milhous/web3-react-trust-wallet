@@ -1,12 +1,12 @@
-import type {
-    Actions,
-    AddEthereumChainParameter,
-    Provider,
-    ProviderConnectInfo,
-    ProviderRpcError,
-    RequestArguments,
-  } from '@web3-react/types';
-  import {Connector} from '@web3-react/types';
+import {
+  Actions,
+  AddEthereumChainParameter,
+  Provider,
+  ProviderConnectInfo,
+  ProviderRpcError,
+  RequestArguments,
+  Connector
+} from '@web3-react/types';
   
   type TrustWalletProvider = Provider & {
     isTrust?: boolean;
